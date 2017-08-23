@@ -1,0 +1,23 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "A test todolist rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo echo no test specificed",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Nick Rowe",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7"
+  }
+}
